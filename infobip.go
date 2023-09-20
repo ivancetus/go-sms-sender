@@ -73,7 +73,7 @@ func (c *InfobipClient) SendMessage(param map[string]string, targetPhoneNumber .
 	}
 
 	if len(targetPhoneNumber) < 1 {
-		return fmt.Errorf("missin parer: trgetPhoneNumber")
+		return fmt.Errorf("missing parameter: targetPhoneNumber")
 	}
 
 	mobile := targetPhoneNumber[0]
